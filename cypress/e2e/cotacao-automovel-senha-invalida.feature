@@ -1,8 +1,8 @@
 # utf-8
 # language: pt
 
-Funcionalidade: Enviar cotacao de seguro para automovel
-    Cenário: Inserir dados do veículo e enviar cotacao
+Funcionalidade: Enviar cotacao de seguro para automovel com senha invalida
+    Cenário: Inserir senha invalida e eniviar cotacao
         Dado que acesso o portal Tricentis
         Quando clico na opção Automobile Insurance
         E preencho todos os dados do automóvel corretamente
@@ -13,7 +13,7 @@ Funcionalidade: Enviar cotacao de seguro para automovel
         E clico no botão next para navegar para a pagina de preco
         E seleciono a opcao de preco desejado
         E clico no botão next para navegar para a pagina de enviar cotacao
-        E preencho todos os dados do automóvel com uma senha incorreta
+        E preencho todos os dados pessoais com uma senha incorreta
         E clico no botão send para enviar a cotacao
         Entao uma mensagem de erro aparece na tela
         

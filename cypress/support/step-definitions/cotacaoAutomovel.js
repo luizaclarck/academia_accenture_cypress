@@ -101,7 +101,7 @@ Then('uma mensagem de sucesso aparece na tela', () => {
 
 //Scenario 2 - Senha invalida
 
-And('preencho todos os dados do automóvel com uma senha incorreta', () => {
+And('preencho todos os dados pessoais com uma senha incorreta', () => {
     cy.digitar('#email', Cypress.env('EMAIL'))
     cy.digitar('#username', Cypress.env('USERNAME'))
     cy.digitar('#password', Cypress.env('PASSWORD'))
